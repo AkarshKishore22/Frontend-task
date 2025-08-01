@@ -4,7 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Enterprise AI Platform – Infodata2AI</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..800&family=Playfair+Display:wght@400..900&display=swap" rel="stylesheet">
 
   <!-- Branded, Animated, Modern CSS -->
   <style>
@@ -275,7 +277,10 @@
     }
     .card img {
       width: 52px;
-      margin-bottom: 1.1rem;
+      height: 52px; /* Add consistent height */
+      margin: 0 auto 1.1rem auto; /* Center horizontally */
+      display: block; /* Make it a block element for centering */
+      object-fit: contain; /* Maintain aspect ratio */
     }
     .card h3 {
       font-size: 1.35rem;
@@ -632,7 +637,7 @@
   <section class="testimonial-section fade-in">
     <div class="testimonial-container">
       <div class="testimonial-quote">
-        "Info Data2AI has revolutionized how we approach enterprise AI. The combination of security, flexibility and powerful RAG capabilities has transformed our workflow completely."
+        Info Data2AI has revolutionized how we approach enterprise AI. The combination of security, flexibility and powerful RAG capabilities has transformed our workflow completely.
       </div>
       <div class="testimonial-author">
         — CTO, Infomerica.Inc
